@@ -7,14 +7,14 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter'),
+        title: const Text('Flutter'),
       ),
       body: Center(
-        child: Container(
+        child:  Container(
           child: Text('Welcome to flutter'),
         ),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
